@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Private Investigators</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="./static/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="./static/css/scrolling-nav.css" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+</head>
+
+<body id="page-top">
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">Home</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#tool">Tool</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#methodology">Methodology</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header class="text-white bgpi">
+    <div class="container-fluid text-left">
+      <h1>Private Investigators</h1>
+      <p class="lead">Trouble with the
+        <span style="color:#f7dc6f">law</span>?<br>
+        <br>
+        We can help.</p>
+    </div>
+  </header>
+
+  <section id="tool">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <h2>
+            Using machine learning and historical weather data, we’re able to help you select a flight or decide if travel plans need
+            to be changed well in advance, saving time and headaches.
+          </h2>
+          <br>
+          <br>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="methodology" class="bg-light">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <h2>Methodology</h2>
+          <p class="lead">Objectives </p>
+          <p> Our goal is to empower travelers with the information of the risk of flight delays that would have an impact on
+            their schedule. With this information, travelers can make better-informed decisions. Surveying existing tools,
+            we found that none incorporates a combination of our three best innovations:
+            <strong>interactive map, filtering capabilities, 10-day forecast</strong>.</p>
+          <p class="lead">Data and Machine Learning </p>
+          <p> Using six years of flight and weather data in 25 cities in the US, we’re able to train a machine-learned model
+            based on random forests algorithm with upsampling. The learning problem was a binary classification and was separated
+            between no delay and delay greater than 15 minutes. This model gives us a prediction accuracy of
+            <strong> 79%</strong>. </p>
+          <p class="lead">Risk value </p>
+          <p> By combining user inputs and flight and weather data APIs, we’re able to load the features into the model and receive
+            a predicted risk of delay as a percentage. In the case of layover cities are involved, the risk value would then
+            be recalculated to compound the risk of delays in either leg of the journey. The
+            <strong> 0-100%</strong> risk value makes it intuitive and easy to understand.</p>
+          <p class="lead">Limitation </p>
+          <p> The forecast is limited to 10 days in advance due to the limited weather API capability. In future work, there’s
+            a possibility to forecast weather using historical weather data from the region and estimate the weather patterns
+            further in the future. </br>
+            Due to the increased cost of obtaining flight details through the flight API, we require that the users enter the airlines,
+            origin and destination airports. There’s a possibility of integration between our tool and traveling sites that
+            would have a more efficient approach to deliver the information to travelers.</p>
+          <a href="/report/finalreport.pdf"> Click here for more details</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <h2>Contact Us</h2>
+          <p class="lead">
+            <div class="row justify-content-md-center">
+              <div class="col-6">
+                <div class="content text-center">
+                  <img src="./static/css/img/profile.png" alt="Elena" style="width:50%; border-radius: 50%;">
+                  <h3>Jim Willis</h3>
+                  <i>Title</i><br>
+                  <a href="jwillis@triticorainey.com" target="_top">jwillis@triticorainey.com</a><br>
+                  <a href="jwillis@willisandassoc.com" target="_top">jwillis@willisandassoc.com</a><br>
+                  <a href="info@willisandassoc.com" target="_top">info@willisandassoc.com</a>
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="content text-center">
+                  <img src="./static/css/img/profile.png" alt="Elena" style="width:50%; border-radius: 50%;">
+                  <h3>Kimberly Willis</h3>
+                  <i>Title</i><br>
+                  <a href="kimmy@gmail.com" target="_top">Kimmy's email</a>
+                </div>
+              </div>
+            </div>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-5 bg-dark">
+    <div class="container-fluid">
+      <p class="text-center text-white">
+        Powered by:
+        <br>
+        <img src="./static/css/img/WUlogo.png" style="width:10%;">
+
+        <img src="./static/css/img/fslogo.png" style="width:10%;">
+      </p>
+
+    </div>
+    <!-- /.container -->
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="./static/vendor/jquery/jquery.min.js"></script>
+  <script src="./static/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="./static/vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom JavaScript for this theme -->
+  <script src="./static/js/scrolling-nav.js"></script>
+
+</body>
+
+</html>

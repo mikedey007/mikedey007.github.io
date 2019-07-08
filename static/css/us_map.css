@@ -1,0 +1,121 @@
+.axis path,
+.axis line {
+    fill: none;
+    stroke: none;
+    shape-rendering: crispEdges;
+}
+.axis text {
+    font-family: sans-serif;
+    font-size: 16px;
+}
+.countries,
+.legend  {
+    stroke: white;
+    stroke-width: 0.5;
+}
+.d3-tip  {
+  background: rgba(0, 0, 0, 0.4);
+  color: #fff;
+  padding: 5px;
+}
+.category{
+  color: Orange;
+}
+
+.airline,
+.flight_no {
+  width: 100px;
+}
+.map {
+  display: block;
+  margin: auto;
+}
+#layover {
+  width: 60px;
+}
+#airline {
+  width: 250px;
+}
+
+label {
+  font-weight: bold;
+}
+
+.cite {
+
+	font-size: 12px;
+	text-align: right;
+	font-style: italic;
+}
+
+.main {
+    max-width: 1200px;
+    margin: auto;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.row {
+    margin: 8px -16px;
+}
+
+.column {
+    float: left;
+    width: 25%;
+}
+
+.content {
+    background-color: white;
+    padding: 10px;
+}
+
+body {
+	/* background-color: #f8f9f9; */
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+circle.clicked {
+  cursor: pointer;
+}
+
+circle.selected {
+  fill: STEELBLUE;
+  cursor: pointer;
+}
+
+circle.layover:hover  {
+  cursor: pointer;
+}
+
+input, select {
+  float: right;
+}
+form.left {
+  width: 40%;
+  float: left;
+  margin-left: 7%;
+}
+
+form.right {
+  float: left;
+  margin-left: 0%;
+}
+
+form.clear {
+  clear: both;
+}
+
+#risk {
+  float: none;
+}
+
+input[type='number'] {
+    -moz-appearance:textfield;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
